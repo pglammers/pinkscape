@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+empty_svg_string = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -6,7 +6,7 @@
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
-   id="svg5"
+   id="svg1"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    sodipodi:docname="empty.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -14,7 +14,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview7"
+     id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -29,14 +29,15 @@
      inkscape:cy="561.25984"
      inkscape:window-width="1309"
      inkscape:window-height="426"
-     inkscape:window-x="89"
-     inkscape:window-y="55"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2" />
+     id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1" />
 </svg>
+"""

@@ -6,6 +6,7 @@ from pinkscape import (
     ClosedPath,
     Path,
     GRID_SQUARE,
+    SVG,
 )
 
 
@@ -30,14 +31,14 @@ p = Path(
 )
 
 
-tree = ET.parse("drawings/source/empty.svg")
+tree = SVG().et
 
 
 layer = tree.findall(""".//*[@id="layer1"]""")[0]
 layer.append(c.element())
 layer.append(p.element())
 
-view = tree.findall(""".//*[@id="namedview7"]""")[0]
+view = tree.findall(""".//*[@id="namedview1"]""")[0]
 view.append(GRID_SQUARE)
 
 ET.indent(tree, space=4 * " ", level=0)
