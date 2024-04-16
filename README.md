@@ -9,3 +9,4 @@
 - [ ] Add basic text support
 - [ ] Add handling of id's
 - [ ] Add examples folder
+- [ ] Add definitions
