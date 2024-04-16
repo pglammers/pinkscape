@@ -10,3 +10,5 @@
 - [ ] Add handling of id's
 - [ ] Add examples folder
 - [ ] Add definitions
+## For the grids package
+- [ ] some space mappings; for triangular, y up, x right down, z left down
