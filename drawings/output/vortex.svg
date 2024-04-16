@@ -1,8 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg:svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg5" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" sodipodi:docname="empty.svg">
-    <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.2102413" inkscape:cx="216.41799" inkscape:cy="561.25984" inkscape:window-width="1309" inkscape:window-height="426" inkscape:window-x="89" inkscape:window-y="55" inkscape:window-maximized="0" inkscape:current-layer="layer1" />
-    <svg:defs id="defs2" />
+<svg:svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg1" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" sodipodi:docname="vortex.svg">
+    <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="true" inkscape:zoom="0.98499866" inkscape:cx="256.85314" inkscape:cy="241.62469" inkscape:window-width="1341" inkscape:window-height="634" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="layer1">
+        <inkscape:grid type="xygrid" id="gridFourth" units="mm" spacingx="0.25" spacingy="0.25" empspacing="4" />
+    </sodipodi:namedview>
+    <svg:defs id="defs1" />
     <svg:g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+        <svg:rect style="fill:#bbd466;fill-opacity:1;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" id="rect1524" width="56" height="52" x="16" y="32.000004" />
+    </svg:g>
+    <svg:g inkscape:label="Simulation data" inkscape:groupmode="layer" id="simulation_data">
         <svg:circle style="fill:#e1d8df;stroke:#000000;stroke-width:0.1" cx="30" cy="30" r="5.0" id="adwdwadww" />
         <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,30.0 34.99228980245619,29.72243464140504" id="dwaawadwawdawd" />
         <svg:circle style="fill:#d9c9c3;stroke:#000000;stroke-width:0.1" cx="30" cy="40" r="5.0" id="adwdwadww" />

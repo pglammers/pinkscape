@@ -1,10 +1,10 @@
 # pinkscape
 
 # Task list: 
-- [ ] Add template
-- [ ] Add a wrapper class for ET
-- [ ] Add groups/layers
-- [ ] Add grids
+- [x] Add template
+- [x] Add a wrapper class for ET
+- [x] Add groups/layers
+- [x] Add grids
 - [ ] Add colors
 - [ ] Add basic text support
 - [ ] Add handling of id's

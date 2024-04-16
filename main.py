@@ -6,6 +6,7 @@ from pinkscape import (
     ClosedPath,
     Path,
     GRID_SQUARE,
+    GRID_TRIANGULAR,
     SVG,
 )
 
@@ -40,5 +41,5 @@ svg["group1"].append(p.element())
 svg.element_vacate("group1")
 svg["group1"].append(p.element())
 svg.element_remove("layer2")
-svg["namedview1"].append(GRID_SQUARE)
+svg.add_grid(GRID_TRIANGULAR)
 svg.write_to("drawings/output/drawing6.svg")

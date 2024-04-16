@@ -16,6 +16,9 @@ class SVG:
         except:
             raise Exception(f'Element with id "{id}" not found in tree {self}')
 
+    def add_grid(self, grid):
+        self["namedview1"].append(grid)
+
     def add_layer(self, id, label):
         element = ET.Element(
             "svg:g",

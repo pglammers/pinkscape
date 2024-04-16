@@ -82,14 +82,16 @@ def produce_figure(tag, data):
 
     nstate = normalise(data, 0.5)
 
-    tree = pink.ET.parse("drawings/source/empty.svg")
-    layer = tree.findall(""".//*[@id="layer1"]""")[0]
+    svg = pink.SVG("drawings/output/vortex.svg")
+    svg.element_remove("simulation_data")
+    # svg.add_grid(pink.GRID_SQUARE)
+    svg.add_layer("simulation_data", "Simulation data")
 
     for k in range(width):
         for j in range(height):
             colour = cmap(angle[k, j])
             print(colour)
-            layer.append(
+            svg["simulation_data"].append(
                 pink.Circle(
                     pink.cssproperties_from_string(
                         "fill:#{:02x}{:02x}{:02x};stroke:#000000;stroke-width:0.1".format(
@@ -102,7 +104,7 @@ def produce_figure(tag, data):
                     global_factor / 2,
                 ).element()
             )
-            layer.append(
+            svg["simulation_data"].append(
                 pink.Path(
                     pink.cssproperties_from_string("stroke:#000000;stroke-width:0.5"),
                     global_factor
@@ -122,9 +124,8 @@ def produce_figure(tag, data):
             # drawer_thin.fill_color = f"{{rgb,255:red,{realcolour(colour[0])}; green,{realcolour(colour[1])}; blue,{realcolour(colour[2])}}}"
             # spins.append(drawer_thin(pt.Circle(pt.Vector(k, j), 0.5)))
             # spins.append(drawer(p))
-    pink.ET.indent(tree, space=4 * " ", level=0)
-    with open(f"drawings/output/{tag}.svg", "wb") as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
+    svg.write_to(f"drawings/output/{tag}.svg")
+
     # fig.draw(spins)
     # fig.write_data()
     # fig.write_standalone()
