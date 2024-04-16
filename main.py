@@ -31,17 +31,8 @@ p = Path(
 )
 
 
-tree = SVG().et
-
-
-layer = tree.findall(""".//*[@id="layer1"]""")[0]
-layer.append(c.element())
-layer.append(p.element())
-
-view = tree.findall(""".//*[@id="namedview1"]""")[0]
-view.append(GRID_SQUARE)
-
-ET.indent(tree, space=4 * " ", level=0)
-
-with open("drawings/output/drawing6.svg", "wb") as f:
-    tree.write(f, encoding="utf-8", xml_declaration=True)
+svg = SVG()
+svg["layer1"].append(c.element())
+svg["layer1"].append(p.element())
+svg["namedview1"].append(GRID_SQUARE)
+svg.write_to("drawings/output/drawing6.svg")

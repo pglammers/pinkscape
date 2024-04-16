@@ -23,7 +23,7 @@ empty_svg_string = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="0.2102413"
      inkscape:cx="216.41799"
      inkscape:cy="561.25984"
