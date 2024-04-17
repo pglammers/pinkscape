@@ -17,7 +17,7 @@ It also depends `plum-dispatch` for internal type checking.
 ## Tutorial 
 For now there is no tutorial. We refer to the examples for some simple use cases.
 
-## Task list: 
+## Task list
 - [ ] Add basic text support
 - [ ] Add definitions and arrow tips
 - [ ] Add examples
