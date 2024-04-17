@@ -47,7 +47,7 @@ class SVG:
 
     def element_vacate(self, id):
         parent = self[id]
-        for child in parent:
+        for child in list(parent):
             parent.remove(child)
 
     def write_to(self, filename):

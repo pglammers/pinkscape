@@ -14,43 +14,36 @@ from pinkscape import (
 import numpy as np
 
 
-style = cssproperties_from_string(
+scale = 4
+offset = np.array([10, -20])
+
+
+grid = grid_square(scale)
+transformer = TransformerSquare(scale, offset)
+tag = ID("id-pink-")
+
+
+style_yellow = cssproperties_from_string(
     "fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605"
-)
-
-pprint(style.properties)
-
-
-t = TransformerSquare(1, np.array([10, -100]))
-c = Circle(
-    style,
-    t(np.array([70, 20])),
-    20,
-)
-
-p = Path(
-    style,
-    t(
-        np.array(
-            [
-                [0, 0],
-                [0, 10],
-                [10, 0],
-            ]
-        )
-    ),
 )
 
 
 svg = SVG()
-tag = ID("id-")
-svg["layer1"].append(tag(c.element()))
-svg["layer1"].append(tag(p.element()))
-svg.add_layer("layer2", "Layer 2")
-svg.add_group("layer2", "group1", "Group 1")
-svg["group1"].append(tag(p.element()))
+svg.add_grid(grid)
+svg.add_layer("simulation", "Simulation")
+
+
+for i in range(9):
+    svg.add_group("simulation", f"group{i}", f"Group {i}")
+    for j in range(9):
+        c = Circle(
+            style_yellow,
+            transformer(np.array([i, j])),
+            scale / 2,
+        )
+        svg[f"group{i}"].append(tag(c.element()))
+
+
 svg.element_vacate("group1")
-svg["group1"].append(tag(p.element()))
-svg.element_remove("layer2")
-svg.add_grid(grid_triangular())
+svg.element_remove("group2")
 svg.write_to("drawings/output/drawing6.svg")
