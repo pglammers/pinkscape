@@ -23,3 +23,4 @@ The following examples are well-annotated.
 ## Task list
 - [ ] Add support for basic text
 - [ ] Add support for definitions and arrow tips
+- [ ] Clean `examples/template_2_vortex`
