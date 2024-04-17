@@ -11,6 +11,7 @@ preserving the anotations that were applied to another layer.
 1. `xml.etree.ElementTree` for handling the `xml` tree in the `svg` file,
 2. `numpy` for handling the positions of points on the canvas,
 3. `colour` (https://github.com/vaab/colour) for handling colors.
+
 It also depends `plum-dispatch` for internal type checking.
 
 ## Tutorial 
