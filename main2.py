@@ -87,37 +87,46 @@ def produce_figure(tag, data):
     # svg.add_grid(pink.GRID_SQUARE)
     svg.add_layer("simulation_data", "Simulation data")
 
+    ider = pink.ID("id-")
+
     for k in range(width):
         for j in range(height):
             colour = cmap(angle[k, j])
             print(colour)
             svg["simulation_data"].append(
-                pink.Circle(
-                    pink.cssproperties_from_string(
-                        "fill:#{:02x}{:02x}{:02x};stroke:#000000;stroke-width:0.1".format(
-                            int(255 * colour[0]),
-                            int(255 * colour[1]),
-                            int(255 * colour[2]),
-                        )
-                    ),
-                    global_factor * np.array([k + global_offset, j + global_offset]),
-                    global_factor / 2,
-                ).element()
+                ider(
+                    pink.Circle(
+                        pink.cssproperties_from_string(
+                            "fill:#{:02x}{:02x}{:02x};stroke:#000000;stroke-width:0.1".format(
+                                int(255 * colour[0]),
+                                int(255 * colour[1]),
+                                int(255 * colour[2]),
+                            )
+                        ),
+                        global_factor
+                        * np.array([k + global_offset, j + global_offset]),
+                        global_factor / 2,
+                    ).element()
+                )
             )
             svg["simulation_data"].append(
-                pink.Path(
-                    pink.cssproperties_from_string("stroke:#000000;stroke-width:0.5"),
-                    global_factor
-                    * np.array(
-                        [
-                            [k + global_offset, j + global_offset],
+                ider(
+                    pink.Path(
+                        pink.cssproperties_from_string(
+                            "stroke:#000000;stroke-width:0.5"
+                        ),
+                        global_factor
+                        * np.array(
                             [
-                                k + global_offset + np.real(nstate[k, j]),
-                                j + global_offset + np.imag(nstate[k, j]),
-                            ],
-                        ]
-                    ),
-                ).element()
+                                [k + global_offset, j + global_offset],
+                                [
+                                    k + global_offset + np.real(nstate[k, j]),
+                                    j + global_offset + np.imag(nstate[k, j]),
+                                ],
+                            ]
+                        ),
+                    ).element()
+                )
             )
             # drawer_thin = pt.ShapeStyle()
             # drawer_thin.fill = True

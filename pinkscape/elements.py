@@ -20,7 +20,6 @@ class Path(Shape):
             attrib={
                 "style": str(self.style),
                 "d": self.path_string(),
-                "id": "dwaawadwawdawd",
             },
         )
 
@@ -48,6 +47,5 @@ class Circle(ClosedShape):
                 "cx": str(self.position[0]),
                 "cy": str(self.position[1]),
                 "r": str(self.radius),
-                "id": "adwdwadww",
             },
         )

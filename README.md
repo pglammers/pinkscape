@@ -7,7 +7,7 @@
 - [x] Add grids
 - [ ] Add colors
 - [ ] Add basic text support
-- [ ] Add handling of id's
+- [x] Add handling of id's
 - [ ] Add examples folder
 - [ ] Add definitions
 ## For the grids package
