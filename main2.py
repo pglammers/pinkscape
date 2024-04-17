@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import matplotlib
 from math import pi, sqrt
 import pinkscape as pink
-
+from colour import Color
 
 global_factor = 10
 global_offset = 3
@@ -78,7 +78,7 @@ def produce_figure(tag, data):
     width, height = data.shape
     angle = (1 / (2 * pi)) * np.remainder(np.imag(np.log(data)), 2 * pi)
 
-    cmap = matplotlib.cm.get_cmap("twilight")
+    cmap = matplotlib.colormaps["twilight"]
 
     nstate = normalise(data, 0.5)
 
@@ -92,17 +92,14 @@ def produce_figure(tag, data):
     for k in range(width):
         for j in range(height):
             colour = cmap(angle[k, j])
-            print(colour)
+            s = pink.cssproperties_from_string(
+                "fill:#000000;stroke:#000000;stroke-width:0.1"
+            )
+            s["fill"] = Color(rgb=(colour[0], colour[1], colour[2]))
             svg["simulation_data"].append(
                 ider(
                     pink.Circle(
-                        pink.cssproperties_from_string(
-                            "fill:#{:02x}{:02x}{:02x};stroke:#000000;stroke-width:0.1".format(
-                                int(255 * colour[0]),
-                                int(255 * colour[1]),
-                                int(255 * colour[2]),
-                            )
-                        ),
+                        s,
                         global_factor
                         * np.array([k + global_offset, j + global_offset]),
                         global_factor / 2,
