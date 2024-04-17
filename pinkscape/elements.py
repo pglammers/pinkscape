@@ -1,20 +1,28 @@
 from .et import ET
+from plum import dispatch
+import numpy as np
+from numbers import Number
+from .css import CSSProperties
 
 
 class Shape:
-    def __init__(self, style):
+    @dispatch
+    def __init__(self, style: CSSProperties):
         self.style = style
 
 
 class Path(Shape):
-    def __init__(self, style, path):
+    @dispatch
+    def __init__(self, style: CSSProperties, path: np.ndarray):
         Shape.__init__(self, style)
         self.path = path
 
-    def path_string(self):
+    @dispatch
+    def path_string(self) -> str:
         return f'M {" ".join(f"{a[0]},{a[1]}" for a in self.path)}'
 
-    def element(self):
+    @dispatch
+    def element(self) -> ET.Element:
         return ET.Element(
             "svg:path",
             attrib={
@@ -29,17 +37,20 @@ class ClosedShape(Shape):
 
 
 class ClosedPath(Path, ClosedShape):
-    def path_string(self):
+    @dispatch
+    def path_string(self) -> str:
         return Path.path_string(self) + " Z"
 
 
 class Circle(ClosedShape):
-    def __init__(self, style, position, radius):
+    @dispatch
+    def __init__(self, style: CSSProperties, position: np.ndarray, radius: Number):
         ClosedShape.__init__(self, style)
         self.position = position
         self.radius = radius
 
-    def element(self):
+    @dispatch
+    def element(self) -> ET.Element:
         return ET.Element(
             "svg:circle",
             attrib={

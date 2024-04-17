@@ -10,6 +10,7 @@ from pinkscape import (
     SVG,
     ID,
 )
+import numpy as np
 
 
 style = cssproperties_from_string(
@@ -20,16 +21,18 @@ pprint(style.properties)
 
 c = Circle(
     style,
-    (80, 80),
+    np.array([80, 80]),
     20,
 )
 p = Path(
     style,
-    [
-        [10, 10],
-        [10, 20],
-        [30, 30],
-    ],
+    np.array(
+        [
+            [10, 10],
+            [10, 20],
+            [30, 30],
+        ]
+    ),
 )
 
 
