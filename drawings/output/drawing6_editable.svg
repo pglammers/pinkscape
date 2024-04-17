@@ -1,10 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg:svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg1" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" sodipodi:docname="empty.svg">
-    <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="true" inkscape:zoom="0.2102413" inkscape:cx="216.41799" inkscape:cy="561.25984" inkscape:window-width="1309" inkscape:window-height="426" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="layer1">
+<svg:svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg1" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" sodipodi:docname="drawing6_editable.svg">
+    <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="true" inkscape:zoom="1.7727813" inkscape:cx="254.4025" inkscape:cy="160.20024" inkscape:window-width="1309" inkscape:window-height="426" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="layer1">
         <inkscape:grid type="xygrid" id="gridSquare" units="mm" spacingx="1.0" spacingy="1.0" empspacing="4" />
     </sodipodi:namedview>
-    <svg:defs id="defs1" />
-    <svg:g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" />
+    <svg:defs id="defs1">
+        <svg:marker style="overflow:visible" id="marker6435" refX="0" refY="0" orient="auto-start-reverse" inkscape:stockid="RoundedArrow" markerWidth="6.1347523" markerHeight="5.9304953" viewBox="0 0 6.1347524 5.9304951" inkscape:isstock="true" inkscape:collect="always" preserveAspectRatio="xMidYMid">
+            <svg:path transform="scale(0.7)" d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z" style="fill:context-stroke;fill-rule:evenodd;stroke:none" id="path6433" />
+        </svg:marker>
+        <svg:marker style="overflow:visible" id="RoundedArrow" refX="0" refY="0" orient="auto-start-reverse" inkscape:stockid="RoundedArrow" markerWidth="6.1347523" markerHeight="5.9304953" viewBox="0 0 6.1347524 5.9304951" inkscape:isstock="true" inkscape:collect="always" preserveAspectRatio="xMidYMid">
+            <svg:path transform="scale(0.7)" d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z" style="fill:context-stroke;fill-rule:evenodd;stroke:none" id="path1367" />
+        </svg:marker>
+    </svg:defs>
+    <svg:g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+        <svg:path style="fill:none;stroke:#0064ca;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:0.699605;marker-end:url(#RoundedArrow)" d="M 66.664628,27.383187 47.994273,32.050775 44.882548,43.252987" id="path5089" />
+        <svg:text xml:space="preserve" style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.699605" x="56.022259" y="27.856283" id="text5418">
+            <svg:tspan sodipodi:role="line" id="tspan5416" x="56.022259" y="27.856283">vacated group</svg:tspan>
+        </svg:text>
+        <svg:text xml:space="preserve" style="font-size:3.175px;fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.699605" x="60.55212" y="32.863132" id="text5418-7">
+            <svg:tspan sodipodi:role="line" id="tspan5416-2" x="60.55212" y="32.863132">removed group</svg:tspan>
+        </svg:text>
+        <svg:path style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.699605;marker-end:url(#marker6435)" d="m 71.514432,31.866535 -17.41543,5.928657 -4.570008,6.422712" id="path6431" />
+    </svg:g>
     <svg:g inkscape:label="Simulation" inkscape:groupmode="layer" id="simulation">
         <svg:g id="group0" inkscape:label="Group 0">
             <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="80" r="2.0" id="id-pink-0" />
