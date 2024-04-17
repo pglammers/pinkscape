@@ -6,6 +6,6 @@
     <svg:defs id="defs1" />
     <svg:g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
         <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="80" cy="80" r="20" id="id-0" />
-        <svg:path style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" d="M 10,10 10,20 30,30" id="id-1" />
+        <svg:path style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" d="M 10,100 10,90 20,100" id="id-1" />
     </svg:g>
 </svg:svg>

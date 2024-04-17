@@ -7,6 +7,7 @@ from pinkscape import (
     Path,
     grid_square,
     grid_triangular,
+    TransformerSquare,
     SVG,
     ID,
 )
@@ -19,19 +20,24 @@ style = cssproperties_from_string(
 
 pprint(style.properties)
 
+
+t = TransformerSquare(1, np.array([10, -100]))
 c = Circle(
     style,
-    np.array([80, 80]),
+    t(np.array([70, 20])),
     20,
 )
+
 p = Path(
     style,
-    np.array(
-        [
-            [10, 10],
-            [10, 20],
-            [30, 30],
-        ]
+    t(
+        np.array(
+            [
+                [0, 0],
+                [0, 10],
+                [10, 0],
+            ]
+        )
     ),
 )
 

@@ -1,3 +1,6 @@
+from plum import dispatch
+
+
 class CSSProperties:
     def __init__(self, properties=None):
         self.properties = properties if type(properties) is dict else dict()
@@ -18,11 +21,12 @@ class CSSProperties:
     def items(self):
         return self.properties.items()
 
-    def __str__(self):
+    @dispatch
+    def __str__(self) -> str:
         self.verify()
         return ";".join(f"{k}:{v}" for k, v in self.items())
 
 
-def cssproperties_from_string(cssproperties_string):
+def cssproperties_from_string(cssproperties_string: str) -> CSSProperties:
     list_of_pairs = cssproperties_string.split(";")
     return CSSProperties(dict(map(lambda s: s.split(":"), list_of_pairs)))

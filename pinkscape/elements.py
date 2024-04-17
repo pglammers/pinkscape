@@ -7,13 +7,13 @@ from .css import CSSProperties
 
 class Shape:
     @dispatch
-    def __init__(self, style: CSSProperties):
+    def __init__(self, style: CSSProperties) -> None:
         self.style = style
 
 
 class Path(Shape):
     @dispatch
-    def __init__(self, style: CSSProperties, path: np.ndarray):
+    def __init__(self, style: CSSProperties, path: np.ndarray) -> None:
         Shape.__init__(self, style)
         self.path = path
 
@@ -44,7 +44,9 @@ class ClosedPath(Path, ClosedShape):
 
 class Circle(ClosedShape):
     @dispatch
-    def __init__(self, style: CSSProperties, position: np.ndarray, radius: Number):
+    def __init__(
+        self, style: CSSProperties, position: np.ndarray, radius: Number
+    ) -> None:
         ClosedShape.__init__(self, style)
         self.position = position
         self.radius = radius
