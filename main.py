@@ -21,11 +21,11 @@ style_yellow = cssproperties_from_string(
     "fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605"
 )
 
-svg = SVG()
+svg = SVG("drawing6")
 svg.add_grid(grid)
 svg.add_layer("simulation", "Simulation")
 
-svg_editable = SVG("drawings/output/drawing6_editable.svg")
+svg_editable = SVG("drawing6_editable", "drawings/output/drawing6_editable.svg")
 svg_editable.element_vacate("simulation")
 
 for i in range(9):

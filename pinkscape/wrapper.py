@@ -1,14 +1,27 @@
 from io import StringIO
+from plum import dispatch
 from .et import ET
 from .empty import empty_svg_string
 
 
 class SVG:
-    def __init__(self, filename=None):
+    @dispatch
+    def __init__(self, figurename: str, filename=None) -> None:
         if filename is not None:
             self.et = ET.parse(filename)
         else:
             self.et = ET.parse(StringIO(empty_svg_string))
+        for index in [
+            "docname",
+            "sodipodi:docname",
+            "{http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd}docname",
+            "export-filename",
+            "inkscape:export-filename",
+            "{http://www.inkscape.org/namespaces/inkscape}export-filename",
+        ]:
+            self.et.getroot().attrib.pop(index, None)
+        self.et.getroot().set("sodipodi:docname", f"{figurename}.svg")
+        self.et.getroot().set("inkscape:export-filename", f"{figurename}.pdf")
 
     def __getitem__(self, id):
         try:
