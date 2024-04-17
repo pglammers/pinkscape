@@ -42,7 +42,7 @@ def translate(object: np.ndarray, translation: np.ndarray) -> np.ndarray:
         return object + np.tile(translation, (object.shape[0], 1))
 
 
-class TransformerSquare:
+class Transformer:
     @dispatch
     def __init__(self, scale: Number, offset: np.ndarray):
         self.scale = scale
@@ -50,16 +50,18 @@ class TransformerSquare:
 
     def __call__(self, vector: np.ndarray) -> np.ndarray:
         vector = translate(vector, self.offset)
-        return self.scale * (vector @ np.array([[1, 0], [0, -1]]))
+        return self.scale * (vector @ self.INTERNAL_MATRIX)
 
 
-class TransformerTriangular:
-    @dispatch
-    def __init__(self, scale: Number, height: Number):
-        self.scale = scale
-        self.height = height
+class TransformerSquare(Transformer):
+    INTERNAL_MATRIX = np.array([[1, 0], [0, -1]])
 
-    @dispatch
-    def __call__(self, vector: np.ndarray) -> np.ndarray:
-        raise NotImplementedError
-        return np.ndarray([[-1, 0], [0, 0]]) @ vector
+
+class TransformerTriangular(Transformer):
+    INTERNAL_MATRIX = np.array(
+        [
+            [0.86602540378, -0.5],
+            [0, -1],
+            [-0.86602540378, -0.5],
+        ]
+    )
