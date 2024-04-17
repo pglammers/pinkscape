@@ -2,9 +2,9 @@
 `pinkscape` is a lightweight python package. Its objective is to turn python
 simulations into figures that are editable with `inkscape`. The output format is
 `svg`. For example, `pinkscape` can export a simulation of the Ising model to
-`svg`, and then add anotations in `inkscape`. After anotation, `pinkscape` can
-overwrite the `svg` layer containing the simulation, while preserving the
-anotations that we applied to another layer.
+`svg`, and you can then add anotations in `inkscape`. After anotation,
+`pinkscape` can overwrite the `svg` layer containing the simulation, while
+preserving the anotations that were applied to another layer.
 
 ## Dependencies
 `pinkscape` depends on the following three packages:
