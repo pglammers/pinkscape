@@ -84,7 +84,7 @@ def produce_figure(tag, data):
 
     svg = pink.SVG("drawings/output/vortex.svg")
     svg.element_remove("simulation_data")
-    # svg.add_grid(pink.GRID_SQUARE)
+    # svg.add_grid(pink.grid_square())
     svg.add_layer("simulation_data", "Simulation data")
 
     ider = pink.ID("id-")

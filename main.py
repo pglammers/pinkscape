@@ -5,8 +5,8 @@ from pinkscape import (
     Circle,
     ClosedPath,
     Path,
-    GRID_SQUARE,
-    GRID_TRIANGULAR,
+    grid_square,
+    grid_triangular,
     SVG,
     ID,
 )
@@ -43,5 +43,5 @@ svg["group1"].append(tag(p.element()))
 svg.element_vacate("group1")
 svg["group1"].append(tag(p.element()))
 svg.element_remove("layer2")
-svg.add_grid(GRID_TRIANGULAR)
+svg.add_grid(grid_triangular())
 svg.write_to("drawings/output/drawing6.svg")
