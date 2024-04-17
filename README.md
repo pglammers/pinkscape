@@ -2,9 +2,9 @@
 `pinkscape` is a lightweight python package. Its objective is to turn python
 simulations into figures that are editable with `inkscape`. The output format is
 `svg`. For example, `pinkscape` can export a simulation of the Ising model to
-`svg`, and you can then add anotations in `inkscape`. After anotation,
+`svg`, and you can then add annotations in `inkscape`. After annotation,
 `pinkscape` can overwrite the `svg` layer containing the simulation, while
-preserving the anotations that were applied to another layer.
+preserving the annotations that were applied to another layer.
 
 ## Dependencies
 `pinkscape` depends on the following three packages:
@@ -15,10 +15,11 @@ preserving the anotations that were applied to another layer.
 It also depends `plum-dispatch` for internal type checking.
 
 ## Tutorial 
-For now there is no tutorial. We refer to the examples for some simple use cases.
+There is no tutorial for now, and we refer to the `examples` folder instead.
+The following examples are well-annotated.
+- `examples/template_0_circles`
+- `examples/template_1_circles_triangular`
 
 ## Task list
-- [ ] Add basic text support
-- [ ] Add definitions and arrow tips
-- [ ] Add examples
-- [ ] Add tutorial
+- [ ] Add support for basic text
+- [ ] Add support for definitions and arrow tips

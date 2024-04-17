@@ -130,7 +130,7 @@ def produce_figure(tag, data):
             # drawer_thin.fill_color = f"{{rgb,255:red,{realcolour(colour[0])}; green,{realcolour(colour[1])}; blue,{realcolour(colour[2])}}}"
             # spins.append(drawer_thin(pt.Circle(pt.Vector(k, j), 0.5)))
             # spins.append(drawer(p))
-    svg.write_to(f"drawings/output/{tag}.svg")
+    svg.write_to(f"examples/template_2_vortex/{tag}.svg")
 
     # fig.draw(spins)
     # fig.write_data()
