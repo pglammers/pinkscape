@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg:svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg1" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" inkscape:export-xdpi="96" inkscape:export-ydpi="96" sodipodi:docname="vortex.svg" inkscape:export-filename="vortex.pdf">
+    <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="true" inkscape:zoom="0.2102413" inkscape:cx="216.41799" inkscape:cy="561.25984" inkscape:window-width="1309" inkscape:window-height="426" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="layer1">
+        <inkscape:grid type="xygrid" id="gridSquare" units="mm" spacingx="0.25" spacingy="0.25" empspacing="4" />
+    </sodipodi:namedview>
+    <svg:defs id="defs1" />
+    <svg:g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" />
+    <svg:g inkscape:label="Simulation data" inkscape:groupmode="layer" id="simulation_data">
+        <svg:circle style="fill:#e2d8df;stroke:#000000;stroke-width:0.1" cx="30" cy="30" r="5.0" id="id-0" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,30.0 34.99228980245619,29.72243464140504" id="id-1" />
+        <svg:circle style="fill:#dacac3;stroke:#000000;stroke-width:0.1" cx="30" cy="40" r="5.0" id="id-2" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,40.0 34.70259810106202,38.3013031171254" id="id-3" />
+        <svg:circle style="fill:#cb9f83;stroke:#000000;stroke-width:0.1" cx="30" cy="50" r="5.0" id="id-4" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,50.0 33.38878480555044,46.32357000043922" id="id-5" />
+        <svg:circle style="fill:#b65e54;stroke:#000000;stroke-width:0.1" cx="30" cy="60" r="5.0" id="id-6" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,60.0 30.459601674838265,55.02116817913219" id="id-7" />
+        <svg:circle style="fill:#993650;stroke:#000000;stroke-width:0.1" cx="30" cy="70" r="5.0" id="id-8" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,70.0 28.11109504009368,65.37052507810644" id="id-9" />
+        <svg:circle style="fill:#7f2350;stroke:#000000;stroke-width:0.1" cx="30" cy="80" r="5.0" id="id-10" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 30.0,80.0 26.861883185600316,76.10741437355811" id="id-11" />
+        <svg:circle style="fill:#ded9e1;stroke:#000000;stroke-width:0.1" cx="40" cy="30" r="5.0" id="id-12" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,30.0 44.97627416080316,30.48651359335875" id="id-13" />
+        <svg:circle style="fill:#dfd5d8;stroke:#000000;stroke-width:0.1" cx="40" cy="40" r="5.0" id="id-14" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,40.0 44.926684126252795,39.14689770828542" id="id-15" />
+        <svg:circle style="fill:#cfad96;stroke:#000000;stroke-width:0.1" cx="40" cy="50" r="5.0" id="id-16" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,50.0 43.889262073994104,46.8577650438277" id="id-17" />
+        <svg:circle style="fill:#af5251;stroke:#000000;stroke-width:0.1" cx="40" cy="60" r="5.0" id="id-18" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,60.0 39.72771861948129,55.00741921949952" id="id-19" />
+        <svg:circle style="fill:#8a2950;stroke:#000000;stroke-width:0.1" cx="40" cy="70" r="5.0" id="id-20" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,70.0 37.33315265308241,65.77058807536572" id="id-21" />
+        <svg:circle style="fill:#701c4e;stroke:#000000;stroke-width:0.1" cx="40" cy="80" r="5.0" id="id-22" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 40.0,80.0 36.30530187360841,76.63114177281999" id="id-23" />
+        <svg:circle style="fill:#c2ced4;stroke:#000000;stroke-width:0.1" cx="50" cy="30" r="5.0" id="id-24" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,30.0 54.59837345180838,31.963405612119892" id="id-25" />
+        <svg:circle style="fill:#d3d6db;stroke:#000000;stroke-width:0.1" cx="50" cy="40" r="5.0" id="id-26" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,40.0 54.86288349271773,41.1629119211073" id="id-27" />
+        <svg:circle style="fill:#dfd4d6;stroke:#000000;stroke-width:0.1" cx="50" cy="50" r="5.0" id="id-28" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,50.0 54.9102169567536,49.056724092532065" id="id-29" />
+        <svg:circle style="fill:#8c2a50;stroke:#000000;stroke-width:0.1" cx="50" cy="60" r="5.0" id="id-30" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,60.0 47.4111352564755,55.72240963394859" id="id-31" />
+        <svg:circle style="fill:#60184a;stroke:#000000;stroke-width:0.1" cx="50" cy="70" r="5.0" id="id-32" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,70.0 45.87905020312923,67.16843280643549" id="id-33" />
+        <svg:circle style="fill:#4f1444;stroke:#000000;stroke-width:0.1" cx="50" cy="80" r="5.0" id="id-34" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 50.0,80.0 45.46189163913646,77.90105443018155" id="id-35" />
+        <svg:circle style="fill:#91b2c6;stroke:#000000;stroke-width:0.1" cx="60" cy="30" r="5.0" id="id-36" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,30.0 63.41172182129759,33.65515447198636" id="id-37" />
+        <svg:circle style="fill:#86aac4;stroke:#000000;stroke-width:0.1" cx="60" cy="40" r="5.0" id="id-38" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,40.0 62.997520699581656,44.00185827529906" id="id-39" />
+        <svg:circle style="fill:#6b8dbf;stroke:#000000;stroke-width:0.1" cx="60" cy="50" r="5.0" id="id-40" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,50.0 61.358125945120925,54.812015577405106" id="id-41" />
+        <svg:circle style="fill:#4a1566;stroke:#000000;stroke-width:0.1" cx="60" cy="60" r="5.0" id="id-42" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,60.0 55.51742472108571,62.21506633509393" id="id-43" />
+        <svg:circle style="fill:#33113d;stroke:#000000;stroke-width:0.1" cx="60" cy="70" r="5.0" id="id-44" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,70.0 55.02075955282961,70.45515334697484" id="id-45" />
+        <svg:circle style="fill:#301437;stroke:#000000;stroke-width:0.1" cx="60" cy="80" r="5.0" id="id-46" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 60.0,80.0 55.00071624834945,79.91537157402605" id="id-47" />
+        <svg:circle style="fill:#7499c1;stroke:#000000;stroke-width:0.1" cx="70" cy="30" r="5.0" id="id-48" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,30.0 72.0342972551388,34.567453850640945" id="id-49" />
+        <svg:circle style="fill:#6a8bbf;stroke:#000000;stroke-width:0.1" cx="70" cy="40" r="5.0" id="id-50" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,40.0 71.21366514370828,44.85046563939459" id="id-51" />
+        <svg:circle style="fill:#606cb8;stroke:#000000;stroke-width:0.1" cx="70" cy="50" r="5.0" id="id-52" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,50.0 69.46637538424118,54.971442926299794" id="id-53" />
+        <svg:circle style="fill:#5b3095;stroke:#000000;stroke-width:0.1" cx="70" cy="60" r="5.0" id="id-54" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,60.0 66.66628726689427,63.726440582261944" id="id-55" />
+        <svg:circle style="fill:#4c1669;stroke:#000000;stroke-width:0.1" cx="70" cy="70" r="5.0" id="id-56" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,70.0 65.58564695007115,72.34808158942228" id="id-57" />
+        <svg:circle style="fill:#401253;stroke:#000000;stroke-width:0.1" cx="70" cy="80" r="5.0" id="id-58" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 70.0,80.0 65.24605657965587,81.54920042478909" id="id-59" />
+        <svg:circle style="fill:#6887be;stroke:#000000;stroke-width:0.1" cx="80" cy="30" r="5.0" id="id-60" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,30.0 80.96356976513725,34.90627489116879" id="id-61" />
+        <svg:circle style="fill:#6278bb;stroke:#000000;stroke-width:0.1" cx="80" cy="40" r="5.0" id="id-62" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,40.0 80.14051007539713,44.998025301927946" id="id-63" />
+        <svg:circle style="fill:#5f5fb3;stroke:#000000;stroke-width:0.1" cx="80" cy="50" r="5.0" id="id-64" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,50.0 78.80368040691395,54.854772850628386" id="id-65" />
+        <svg:circle style="fill:#5d3da1;stroke:#000000;stroke-width:0.1" cx="80" cy="60" r="5.0" id="id-66" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,60.0 77.1968336694974,64.14032106527218" id="id-67" />
+        <svg:circle style="fill:#572487;stroke:#000000;stroke-width:0.1" cx="80" cy="70" r="5.0" id="id-68" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,70.0 76.19496559801712,73.24371903834577" id="id-69" />
+        <svg:circle style="fill:#4f1970;stroke:#000000;stroke-width:0.1" cx="80" cy="80" r="5.0" id="id-70" />
+        <svg:path style="stroke:#000000;stroke-width:0.5" d="M 80.0,80.0 75.71174220451731,82.57115637009535" id="id-71" />
+    </svg:g>
+</svg:svg>
