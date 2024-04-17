@@ -1,9 +1,11 @@
 from .et import ET
 import numpy as np
 from plum import dispatch
+from numbers import Number
 
 
-def grid_square(scale=1) -> ET.Element:
+@dispatch
+def grid_square(scale: Number = 1) -> ET.Element:
     return ET.Element(
         "inkscape:grid",
         attrib={
@@ -18,7 +20,8 @@ def grid_square(scale=1) -> ET.Element:
 
 
 class TRANSFORMER_SQUARE:
-    def __init__(self, scale, height):
+    @dispatch
+    def __init__(self, scale: Number, height: Number):
         self.scale = scale
         self.height = height
 
@@ -28,7 +31,7 @@ class TRANSFORMER_SQUARE:
 
 
 @dispatch
-def grid_triangular(scale=1) -> ET.Element:
+def grid_triangular(scale: Number = 1) -> ET.Element:
     return ET.Element(
         "inkscape:grid",
         attrib={
@@ -42,10 +45,12 @@ def grid_triangular(scale=1) -> ET.Element:
 
 
 class TRANSFORMER_TRIANGULAR:
-    def __init__(self, scale, height):
+    @dispatch
+    def __init__(self, scale: Number, height: Number):
         self.scale = scale
         self.height = height
 
+    @dispatch
     def __call__(self, vector: np.ndarray) -> np.ndarray:
         raise NotImplementedError
         return np.ndarray([[-1, 0], [0, 0]]) @ vector
