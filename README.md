@@ -5,7 +5,7 @@
 - [x] Add a wrapper class for ET
 - [x] Add groups/layers
 - [x] Add grids
-- [ ] Add colors
+- [x] Add colors
 - [ ] Add basic text support
 - [x] Add handling of id's
 - [ ] Add examples folder

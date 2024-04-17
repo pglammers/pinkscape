@@ -1,4 +1,12 @@
 from plum import dispatch
+from colour import Color
+
+
+def string(object):
+    if type(object) is Color:
+        return object.hex_l
+    else:
+        return str(object)
 
 
 class CSSProperties:
@@ -9,7 +17,7 @@ class CSSProperties:
     def verify(self):
         for k, v in self.items():
             assert str(k) == str(k).strip(), f'The property "{k}" has whitespace'
-            assert str(v) == str(v).strip(), f'The value "{v}" has whitespace'
+            assert string(v) == string(v).strip(), f'The value "{v}" has whitespace'
 
     def __setitem__(self, key, item):
         self.properties[key] = item
@@ -24,7 +32,7 @@ class CSSProperties:
     @dispatch
     def __str__(self) -> str:
         self.verify()
-        return ";".join(f"{k}:{v}" for k, v in self.items())
+        return ";".join(f"{k}:{string(v)}" for k, v in self.items())
 
 
 def cssproperties_from_string(cssproperties_string: str) -> CSSProperties:

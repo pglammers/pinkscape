@@ -19,7 +19,7 @@ svg.add_group("simulation", "hexagons", "Hexagons")
 style_red = cssproperties_from_string(
     "fill:#8abc0b;fill-opacity:1;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605"
 )
-style_red["fill"] = Color(rgb=(1, 0, 0)).hex_l
+style_red["fill"] = Color(rgb=(1, 0, 0))
 # cmap = matplotlib.colormaps["twilight"]
 # pprint(cmap(1))
 # pprint(len(cmap(120)))
