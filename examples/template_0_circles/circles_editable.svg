@@ -9,82 +9,82 @@
     </svg:g>
     <svg:g inkscape:label="Simulation" inkscape:groupmode="layer" id="simulation">
         <svg:g id="group0" inkscape:label="Group 0">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="80" r="2.0" id="id-pink-0" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="76" r="2.0" id="id-pink-1" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="72" r="2.0" id="id-pink-2" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="68" r="2.0" id="id-pink-3" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="64" r="2.0" id="id-pink-4" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="60" r="2.0" id="id-pink-5" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="56" r="2.0" id="id-pink-6" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="52" r="2.0" id="id-pink-7" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="40" cy="48" r="2.0" id="id-pink-8" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="80" r="2.0" id="id-pink-0" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="76" r="2.0" id="id-pink-1" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="72" r="2.0" id="id-pink-2" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="68" r="2.0" id="id-pink-3" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="64" r="2.0" id="id-pink-4" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="60" r="2.0" id="id-pink-5" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="56" r="2.0" id="id-pink-6" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="52" r="2.0" id="id-pink-7" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="40" cy="48" r="2.0" id="id-pink-8" />
         </svg:g>
         <svg:g id="group1" inkscape:label="Group 1" />
         <svg:g id="group3" inkscape:label="Group 3">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="80" r="2.0" id="id-pink-27" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="76" r="2.0" id="id-pink-28" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="72" r="2.0" id="id-pink-29" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="68" r="2.0" id="id-pink-30" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="64" r="2.0" id="id-pink-31" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="60" r="2.0" id="id-pink-32" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="56" r="2.0" id="id-pink-33" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="52" r="2.0" id="id-pink-34" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="52" cy="48" r="2.0" id="id-pink-35" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="80" r="2.0" id="id-pink-27" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="76" r="2.0" id="id-pink-28" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="72" r="2.0" id="id-pink-29" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="68" r="2.0" id="id-pink-30" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="64" r="2.0" id="id-pink-31" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="60" r="2.0" id="id-pink-32" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="56" r="2.0" id="id-pink-33" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="52" r="2.0" id="id-pink-34" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="52" cy="48" r="2.0" id="id-pink-35" />
         </svg:g>
         <svg:g id="group4" inkscape:label="Group 4">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="80" r="2.0" id="id-pink-36" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="76" r="2.0" id="id-pink-37" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="72" r="2.0" id="id-pink-38" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="68" r="2.0" id="id-pink-39" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="64" r="2.0" id="id-pink-40" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="60" r="2.0" id="id-pink-41" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="56" r="2.0" id="id-pink-42" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="52" r="2.0" id="id-pink-43" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="56" cy="48" r="2.0" id="id-pink-44" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="80" r="2.0" id="id-pink-36" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="76" r="2.0" id="id-pink-37" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="72" r="2.0" id="id-pink-38" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="68" r="2.0" id="id-pink-39" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="64" r="2.0" id="id-pink-40" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="60" r="2.0" id="id-pink-41" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="56" r="2.0" id="id-pink-42" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="52" r="2.0" id="id-pink-43" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="56" cy="48" r="2.0" id="id-pink-44" />
         </svg:g>
         <svg:g id="group5" inkscape:label="Group 5">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="80" r="2.0" id="id-pink-45" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="76" r="2.0" id="id-pink-46" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="72" r="2.0" id="id-pink-47" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="68" r="2.0" id="id-pink-48" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="64" r="2.0" id="id-pink-49" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="60" r="2.0" id="id-pink-50" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="56" r="2.0" id="id-pink-51" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="52" r="2.0" id="id-pink-52" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="60" cy="48" r="2.0" id="id-pink-53" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="80" r="2.0" id="id-pink-45" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="76" r="2.0" id="id-pink-46" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="72" r="2.0" id="id-pink-47" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="68" r="2.0" id="id-pink-48" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="64" r="2.0" id="id-pink-49" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="60" r="2.0" id="id-pink-50" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="56" r="2.0" id="id-pink-51" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="52" r="2.0" id="id-pink-52" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="60" cy="48" r="2.0" id="id-pink-53" />
         </svg:g>
         <svg:g id="group6" inkscape:label="Group 6">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="80" r="2.0" id="id-pink-54" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="76" r="2.0" id="id-pink-55" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="72" r="2.0" id="id-pink-56" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="68" r="2.0" id="id-pink-57" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="64" r="2.0" id="id-pink-58" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="60" r="2.0" id="id-pink-59" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="56" r="2.0" id="id-pink-60" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="52" r="2.0" id="id-pink-61" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="64" cy="48" r="2.0" id="id-pink-62" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="80" r="2.0" id="id-pink-54" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="76" r="2.0" id="id-pink-55" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="72" r="2.0" id="id-pink-56" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="68" r="2.0" id="id-pink-57" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="64" r="2.0" id="id-pink-58" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="60" r="2.0" id="id-pink-59" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="56" r="2.0" id="id-pink-60" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="52" r="2.0" id="id-pink-61" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="64" cy="48" r="2.0" id="id-pink-62" />
         </svg:g>
         <svg:g id="group7" inkscape:label="Group 7">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="80" r="2.0" id="id-pink-63" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="76" r="2.0" id="id-pink-64" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="72" r="2.0" id="id-pink-65" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="68" r="2.0" id="id-pink-66" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="64" r="2.0" id="id-pink-67" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="60" r="2.0" id="id-pink-68" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="56" r="2.0" id="id-pink-69" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="52" r="2.0" id="id-pink-70" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="68" cy="48" r="2.0" id="id-pink-71" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="80" r="2.0" id="id-pink-63" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="76" r="2.0" id="id-pink-64" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="72" r="2.0" id="id-pink-65" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="68" r="2.0" id="id-pink-66" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="64" r="2.0" id="id-pink-67" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="60" r="2.0" id="id-pink-68" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="56" r="2.0" id="id-pink-69" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="52" r="2.0" id="id-pink-70" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="68" cy="48" r="2.0" id="id-pink-71" />
         </svg:g>
         <svg:g id="group8" inkscape:label="Group 8">
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="80" r="2.0" id="id-pink-72" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="76" r="2.0" id="id-pink-73" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="72" r="2.0" id="id-pink-74" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="68" r="2.0" id="id-pink-75" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="64" r="2.0" id="id-pink-76" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="60" r="2.0" id="id-pink-77" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="56" r="2.0" id="id-pink-78" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="52" r="2.0" id="id-pink-79" />
-            <svg:circle style="fill:#8abc0b;fill-opacity:0.455224;stroke:#0064ca;stroke-width:0.499999;stroke-opacity:0.699605" cx="72" cy="48" r="2.0" id="id-pink-80" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="80" r="2.0" id="id-pink-72" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="76" r="2.0" id="id-pink-73" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="72" r="2.0" id="id-pink-74" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="68" r="2.0" id="id-pink-75" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="64" r="2.0" id="id-pink-76" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="60" r="2.0" id="id-pink-77" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="56" r="2.0" id="id-pink-78" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="52" r="2.0" id="id-pink-79" />
+            <svg:circle style="fill:#ffff00;fill-opacity:0.8;stroke:#0000ff;stroke-width:0.5;stroke-opacity:0.8" cx="72" cy="48" r="2.0" id="id-pink-80" />
         </svg:g>
     </svg:g>
 </svg:svg>

@@ -1,5 +1,6 @@
 from pinkscape import *
 import numpy as np
+from colour import Color
 import os
 
 
@@ -58,13 +59,14 @@ except:
 
 
 # We now describe a style for the circles that we are going to draw.
+#   Observe that the `colour` package is used to specify colors.
 circle_style = CSSProperties(
     {
-        "fill": "#8abc0b",
-        "fill-opacity": "0.455224",
-        "stroke": "#0064ca",
-        "stroke-width": 0.499999,
-        "stroke-opacity": "0.699605",
+        "fill": Color("yellow"),
+        "fill-opacity": 0.8,
+        "stroke": Color("blue"),
+        "stroke-width": 0.5,
+        "stroke-opacity": 0.8,
     }
 )
 
