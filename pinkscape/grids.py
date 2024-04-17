@@ -60,8 +60,8 @@ class TransformerSquare(Transformer):
 class TransformerTriangular(Transformer):
     INTERNAL_MATRIX = np.array(
         [
-            [0.86602540378, -0.5],
+            [0.86602540378, 0.5],
             [0, -1],
-            [-0.86602540378, -0.5],
+            [-0.86602540378, 0.5],
         ]
     )
