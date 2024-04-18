@@ -32,7 +32,8 @@ class SVG:
     def add_grid(self, grid):
         self["namedview1"].append(grid)
 
-    def add_layer(self, id, label):
+    @dispatch
+    def add_layer(self, id, label) -> ET.Element:
         element = ET.Element(
             "svg:g",
             attrib={
@@ -42,15 +43,33 @@ class SVG:
             },
         )
         self.et.getroot().append(element)
+        return element
 
-    def add_group(self, insert_id, group_id, group_label=None):
+    @dispatch
+    def add_group(
+        self, insert_group: str, group_id: str, group_label=None
+    ) -> ET.Element:
         attrib = {
             "id": group_id,
         }
         if group_label is not None:
             attrib["inkscape:label"] = group_label
         element = ET.Element("svg:g", attrib=attrib)
-        self[insert_id].append(element)
+        self[insert_group].append(element)
+        return element
+
+    @dispatch
+    def add_group(
+        self, insert_group: ET.Element, group_id: str, group_label=None
+    ) -> ET.Element:
+        attrib = {
+            "id": group_id,
+        }
+        if group_label is not None:
+            attrib["inkscape:label"] = group_label
+        element = ET.Element("svg:g", attrib=attrib)
+        insert_group.append(element)
+        return element
 
     def element_remove(self, id):
         parent_map = {c: p for p in self.et.iter() for c in p}

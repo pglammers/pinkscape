@@ -3,6 +3,7 @@ from .elements import Circle, Path, ClosedPath
 from .grids import (
     grid_square,
     grid_triangular,
+    translate,
     TransformerSquare,
     TransformerTriangular,
 )

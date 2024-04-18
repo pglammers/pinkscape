@@ -48,9 +48,9 @@ class Transformer:
         self.scale = scale
         self.offset = offset
 
-    def __call__(self, vector: np.ndarray) -> np.ndarray:
-        vector = translate(vector, self.offset)
-        return self.scale * (vector @ self.INTERNAL_MATRIX)
+    def __call__(self, object: np.ndarray) -> np.ndarray:
+        object = translate(object, self.offset)
+        return self.scale * (object @ self.INTERNAL_MATRIX)
 
 
 class TransformerSquare(Transformer):
